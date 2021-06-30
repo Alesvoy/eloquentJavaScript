@@ -47,3 +47,19 @@
 
 // Reversing an Array
 
+function reverseArray (arr) {
+    let newArr = [];
+
+    while(arr.length > 0){
+        let i = arr.pop();
+        newArr.push(i);
+    }
+
+    return newArr;
+}
+
+let test = reverseArray([1,2,3,4]);
+
+for(let i = 0; i < test.length; i++){
+    console.log(test[i]);
+}
