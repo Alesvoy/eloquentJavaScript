@@ -47,19 +47,30 @@
 
 // Reversing an Array
 
-function reverseArray (arr) {
-    let newArr = [];
+// function reverseArray (arr) {
+//     let newArr = [];
 
-    while(arr.length > 0){
-        let i = arr.pop();
-        newArr.push(i);
-    }
+//     while(arr.length > 0){
+//         let i = arr.pop();
+//         newArr.push(i);
+//     }
 
-    return newArr;
-}
+//     return newArr;
+// }
 
-let test = reverseArray([1,2,3,4]);
+// function reverseArrayInPlace(array) {
+//     for (let i = 0; i < Math.floor(array.length / 2); i++) {
+//       let old = array[i];
+//       array[i] = array[array.length - 1 - i];
+//       array[array.length - 1 - i] = old;
+//     }
+//     return array;
+//   }
 
-for(let i = 0; i < test.length; i++){
-    console.log(test[i]);
-}
+// let test = reverseArrayInPlace([1,2,3,4]);
+
+// for(let i = 0; i < test.length; i++){
+//     console.log(test[i]);
+// }
+
+// A List
