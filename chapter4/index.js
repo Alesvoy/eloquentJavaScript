@@ -12,10 +12,10 @@
 //                 return result;
 //             }
 //         }
-        
+
 //         return result;
 //     }
-    
+
 //     while(result[result.length - 1] < end){
 //         start += step;
 //         result.push(start);
@@ -24,7 +24,7 @@
 //             return result;
 //         }
 //     }
-    
+
 //     return result;
 
 // }
@@ -74,3 +74,19 @@
 // }
 
 // A List
+
+// function arrayToList(arr) {
+//   if (arr.length === 0) return { value: arr[0], rest: null };
+
+//   const num = arr[0];
+//   arr.shift();
+
+//   return {
+//     value: num,
+//     rest: arrayToList(arr),
+//   };
+// }
+
+// const list = arrayToList([1, 2, 3]);
+
+// console.log(list);
